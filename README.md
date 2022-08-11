@@ -1,3 +1,6 @@
-# aprendendoWeb
-alguns projetos com HTML, CSS e JavaScript
-![relogio](https://user-images.githubusercontent.com/36389555/184239773-a5ba7d86-9743-4ab9-990e-425adbf08a26.gif)
+<h1 align="center"> Aprendendo Desenvolvimento Web </h1>
+Repositório com alguns projetos utilizando tecnologias como HTML, CSS e JavaScript.
+
+
+https://user-images.githubusercontent.com/36389555/184240230-6c04d2d7-80e0-49f4-8375-89cf657d7501.mp4
+
