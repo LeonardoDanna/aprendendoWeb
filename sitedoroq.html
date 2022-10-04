@@ -4,83 +4,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roq</title>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>    
+    <title>loja do roq</title>
+
     <style>
         body {
             margin: 0;
             padding: 0;
-            font-family: 'Courier New', Courier, monospace
+            font-family: 'Montserrat';
+            background: #FBEAFF;
+            scroll-behavior: smooth;
         }
         header {
-            background-color: rgb(94, 141, 94);
-            height: 120px;
+            background-color: #845EC2;
+            height: 150px;
         }
         nav {
-            background-color: aquamarine;
+            background-color: #D65DB1;
             height: 40px;
         }
         header h1 {
             margin: 0 auto;
             text-align: center;
-            padding-top: 30px;
+            padding-top: 40px;
             font-size: 50px;
         }
         nav {
             text-align: center;
             font-size: 25px;
-            padding: 10px;
-            padding-top: 20px;
+            padding: 20px;
+            padding-top: 30px;
         }
         nav a{
             text-decoration: none;
-            background-color: aliceblue;
+            background-color: #D65DB1;
             border-radius: 10px;
-            padding: 7px;
+            padding: 10px;
+            margin: 10px 10px;
         }
         nav a:hover {
             text-decoration: underline;
-            background-color: rgb(255, 255, 255);
+            background-color: #FF6F91;
             border-radius: 10px;
-            padding: 7px;
+            padding: 10px;
         }
         .container {
-            width: 700px;
+            max-width: 800px;
             margin: 0 auto;
-            background-color: azure;
+            background-color: #FF9671;
             padding: 30px;
         }
         .container h1, p {
             text-align: center;
+            margin: 30px 50px;
         }
-        .container img {
+        img, figure {
             border-radius: 10px;
-            width: 500px;
-            padding-left: 65px;
+            width: 700px;
+            height: 600px;
         }
         .container input {
-            background-color: rgb(103, 187, 187);
-            border: 10px;
-            padding: 15px;
+            background-color: #FFC75F;
+            border: #F9F871;
+            padding: 10px;
+            margin: 5px 320px;
+            margin-bottom: 10px;
             border-radius: 10px;
-            margin: 20px 290px;
+            font-size: 16px;
         }
         .container input:hover {
-            background-color: rgb(255, 255, 255);
+            background-color: #FF6F91;
             cursor: pointer;
         }
+        hr {
+            width: 800px;
+            border-color: #845EC2;
+        }
         footer {
-            background-color: rgb(87, 87, 87);
+            background-color: #F9F871;
+            color: rgb(29, 29, 29);
             height: 120px;
+            padding-bottom: 50px;
         }
         footer a {
             text-decoration: none;
-            color: rgb(29, 29, 29);
+            color: rgb(83, 83, 83);
         }
 
     </style>
 </head>
     <header>
-        <h1>site do roq</h1>
+        <h1>loja_do_roq.exe</h1>
     </header>
     <nav>
         <a href="#comprar">comprar</a>
@@ -89,15 +103,14 @@
         <a href="#ajuda">ajuda</a>
     </nav>
 <div class="container">
-
     <div class="comprar">
         <a name="comprar"></a>
             <h1>comprar</h1>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos rem molestiae dolor numquam, 
                     ratione quam error esse, eligendi nostrum sed, sapiente aliquam dolore cumque fuga culpa 
                     vel ipsa tempora voluptatibus!</p>
-                    <figure><img src="https://www.senacrs.com.br/assets/images/default-image.png" alt="foto default"></figure>
-                    <input type="button" value="quero saber mais">
+                    <figure><img src="https://droper-media.s3.amazonaws.com/2411202018138737.jpeg" alt="foto default"></figure>
+                    <input type="button" value="quero saber mais"> <hr>
     </div>
 
     <div class="vender">
@@ -106,8 +119,8 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aspernatur dolorem odio 
                     numquam voluptas deleniti quas labore incidunt maiores consequuntur. Voluptate, r
                     epellendus necessitatibus illum est voluptatibus iure. Odit, iusto fuga!</p>
-                    <figure><img src="https://www.senacrs.com.br/assets/images/default-image.png" alt="foto default"></figure>
-                    <input type="button" value="quero saber mais">
+                    <figure><img src="https://maze.cdn.plataformaneo.com.br/produto/20220426141857_3120996880_D.png" alt="foto default"></figure>
+                    <input type="button" value="quero saber mais"> <hr>
     </div>
     <div class="alugar">
         <a name="alugar"></a>
@@ -116,8 +129,8 @@
                 Optio ducimus veniam fuga nesciunt inventore dolorem, eligendi 
                 dolor tenetur cumque error nostrum labore quae beatae sint odit 
                 placeat sapiente! Sequi, sapiente.</p>
-                <figure><img src="https://www.senacrs.com.br/assets/images/default-image.png" alt="foto default"></figure>
-                <input type="button" value="quero saber mais">
+                <figure><img src="https://droper-media.s3.amazonaws.com/2012021203357262.jpeg" alt="foto default"></figure>
+                <input type="button" value="quero saber mais"> <hr>
     </div>
 
     <div name="ajuda" class="ajuda">
@@ -127,13 +140,13 @@
                 Pariatur temporibus eaque voluptatem aut, at corrupti fugit 
                 mollitia dolorum ducimus expedita dicta, ex cum placeat 
                 provident facere minima, enim quisquam quae.</p>
-                <figure><img src="https://www.senacrs.com.br/assets/images/default-image.png" alt="foto default"></figure>
-                <input type="button" value="quero saber mais">
+                <figure><img src="https://s8264.pcdn.co/wp-content/uploads/2021/03/Yeezy-Featured.jpg" alt="foto default"></figure>
+                <input type="button" value="quero saber mais"> <hr>
     </div>
 </div>
 
     <footer> <br>
         <p>Todos os direitos reservados.</p>
-        <p>Developed by <a target="_blank" href="https://www.instagram.com/leosd__/?hl=pt-br">Leonardo Danna</a>.</p>
+        <p>Desenvolvido por <a target="_blank" href="https://github.com/LeonardoDanna">Leonardo Danna</a>.</p>
     </footer>
 </html>
