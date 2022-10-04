@@ -11,4 +11,4 @@ Minion com css
 ![image](https://user-images.githubusercontent.com/36389555/193724987-9c03ae8d-4409-4fe6-a74f-c0b2dda21888.png)
 
 Footer 
-![image](https://user-images.githubusercontent.com/36389555/193722053-5ee2b779-3636-42e9-9a94-8421440f324f.png)
+![image](https://user-images.githubusercontent.com/36389555/193920022-907b2d98-3b3b-46f8-9a14-1d0e3cf1a0cd.png)
