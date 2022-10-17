@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <title>Leozin</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            background: #C9847B;
+            font-family: 'Montserrat';
+        }
+        input {
+            background: #FFE5DD;
+            padding: 10px 80px;
+            margin: 5px;
+        }
+        .container {
+            text-align: center;
+            padding-top: 50px;
+            font-size: 50px;
+        }
+        button {
+            padding: 20px 80px;
+            margin: 30px;
+            font-size: 20px;
+            background: #B83030;
+        }
+        button:hover {
+            background: #FFE5DD;
+        }
+        .fname {
+            padding-top: 20px;
+        }
+        .lname {
+            padding-top: 20px;
+        }
+        #boasvindas {
+            color: #A82D5A;
+        }
+        
+
+    </style>
+    <script>
+        function enviar(){
+            let primeiroNome = document.getElementById("fname").value;
+            let ultimoNome = document.getElementById("lname").value;
+            console.log("Primeiro nome: " + primeiroNome);
+            console.log("Ultimo nome: " + ultimoNome);
+
+            document.getElementById("paragrafo").innerHTML = "Suas informações foram computadas com sucesso.";
+            document.getElementById("boasvindas").innerHTML = "Seja bem-vindo(a) " + primeiroNome + " " + ultimoNome + ".";
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <form>
+            <div class="fname">
+                <label for="fname">Primeiro nome:</label><br>
+                <input type="text" id="fname" name="fname" required><br>
+            </div>
+            <div class="lname">
+                <label for="lname">Ultimo nome:</label><br>
+                <input type="text" id="lname" name="lname" required> <br>
+            </div>
+                <Button type="button" onclick="enviar()">Enviar</button>
+                <p id="paragrafo"></p>
+                <p id="boasvindas"></p>
+        </form>        
+    </div>
+</body>
+</html>
