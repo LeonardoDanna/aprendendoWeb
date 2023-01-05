@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USING RANDOM NUMBER AND IF WITH JS</title>
+    
+    <style>
+        
+        * {
+            background: rgb(130, 45, 45);
+            font-family: 'Montserrat';
+        }
+
+    </style>
+
+    <script>
+        function pulaLinha() {
+
+            document.write("<br>");
+
+        }
+
+        function mostra(args) {
+
+            document.write(args);
+            document.write("<br>");
+
+        }
+
+        var numeroPensado = Math.round(Math.random() * 10);
+
+        var chute = parseInt(prompt("Digite seu chute!"));
+
+        if(chute == numeroPensado) {
+
+            mostra("Você acertou!");
+
+        } else {
+
+            mostra("Você errou, o número pensado foi " + numeroPensado);
+
+        }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

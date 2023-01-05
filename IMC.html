@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC WITH JS</title>
+    
+    <style>
+        body {
+            background: rgb(130, 45, 45);
+        }
+    </style>
+
+    <script>
+        function mostra(args) {
+
+            document.write(args);
+            document.write("<br>");
+
+        }
+
+        function calculaIMC(peso, altura) {
+
+            return imc = peso / (altura * altura);
+
+        }
+
+        var imcLeo = calculaIMC(65, 1.73);
+        var imcPedro = calculaIMC(73, 1.80);
+        var totalIMC = imcLeo + imcPedro;
+
+        mostra("O IMC de Leo é de " + imcLeo);
+        mostra("O IMC de Pedro é de " + imcPedro);
+        mostra("A soma do IMC dos dois é de " + totalIMC);
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
